@@ -1,0 +1,4 @@
+сент. 04, 2022 11:37:40 PM ru.Geekbrains.Lec02_04 main
+WARNING: Тестовое логирование 1
+сент. 04, 2022 11:37:40 PM ru.Geekbrains.Lec02_04 main
+INFO: Тестовое логирование 2
