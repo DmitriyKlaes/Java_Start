@@ -1,6 +1,6 @@
 package ru.Geekbrains;
 
-public class Lec_03_Arrays {
+public class Lec03_Arrays {
     public static void main(String[] args) {
         // Расширение массива... плохой способ с точки зрения производительности
         int[] a = new int[] { 1, 9 };

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Lec_03_Collection {
+public class Lec03_Collection {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>(); // явно указан тип коллекции! Так быстрее!!
         List<Integer> listlist = new ArrayList<Integer>(); // List тоже может хранить конструктор ArrayList

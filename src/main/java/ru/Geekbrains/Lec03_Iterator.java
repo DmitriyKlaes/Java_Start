@@ -2,7 +2,7 @@ package ru.Geekbrains;
 
 import java.util.*;
 
-public class Lec_03_Iterator {
+public class Lec03_Iterator {
     public static void main(String[] args) {
         List<Integer> list = List.of(1, 12, 123, 1234, 12345);
 

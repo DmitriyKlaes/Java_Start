@@ -1,6 +1,6 @@
 package ru.Geekbrains;
 
-public class Lec_03_ObjectType{
+public class Lec03_ObjectType {
     public static void main(String[] args) {
         Object o = 1; GetType(o);    // java.lang.Integer
         o = 1.2; GetType(o);         // java.lang.Double
