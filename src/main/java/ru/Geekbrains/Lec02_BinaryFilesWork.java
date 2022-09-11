@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class Lec02_03 {
+public class Lec02_BinaryFilesWork {
 
     static ByteOrder bOrder = ByteOrder.LITTLE_ENDIAN;
     static Map<String, String> data = new HashMap<>();
@@ -87,9 +87,8 @@ public class Lec02_03 {
     }
 
     public static void main(String[] args) {
-        String file = "test.bin";
+        String file = "Lec02_BinaryFilesWork.bin";
         //create file
-
         try {
             add("key1", "значение 1");
             add("key2", "значение 2");
@@ -99,7 +98,6 @@ public class Lec02_03 {
             e.printStackTrace();
         }
         //read file
-
         try {
             loadFile(file);
             String key1 = "key1";
