@@ -1,0 +1,4 @@
+сент. 11, 2022 11:03:38 PM ru.Geekbrains.Lec02_Logger main
+WARNING: Тестовое логирование 1
+сент. 11, 2022 11:03:39 PM ru.Geekbrains.Lec02_Logger main
+INFO: Тестовое логирование 2
