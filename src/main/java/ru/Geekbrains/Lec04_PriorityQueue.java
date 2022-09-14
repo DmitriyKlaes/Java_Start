@@ -4,7 +4,8 @@ import java.util.PriorityQueue;
 
 public class Lec04_PriorityQueue {
     public static void main(String[] args) {
-
+        // Наивысший приоритет имеет "наименьший" элемент
+        // Сначала нужно понять как именно для "не числа" будет определен приоритет
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(123);
         pq.add(3);

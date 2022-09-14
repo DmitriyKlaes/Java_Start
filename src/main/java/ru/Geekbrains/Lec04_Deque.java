@@ -14,5 +14,8 @@ public class Lec04_Deque {
         deque.pollFirst(); deque.pollLast();
         deque.getFirst(); deque.getLast();
         deque.peekFirst(); deque.peekLast();
+        /*
+        https://docs.oracle.com/javase/7/docs/api/java/util/Deque.html
+        */
     }
 }

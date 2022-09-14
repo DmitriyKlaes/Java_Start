@@ -1,5 +1,6 @@
 package ru.Geekbrains;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 public class Lec04_Stack {
@@ -29,15 +30,16 @@ public class Lec04_Stack {
         System.out.println(stack.pop()); // 12
         System.out.println(stack.pop()); // 1
 
-        //Дальше решение интересной задачей (как эвал в питоне)
+        //Дальше решение интересной задачи (как эвал в питоне)
 
         // (1+2*3*4)*(10/5) - 20
         // 1 2 3 * 4 * + 10 5 / * 20 -
-        //var exp = "20 30 - 10 *".split(" "); // (20-30)*10
-        var exp = "1 2 + 3 *".split(" "); // (1 + 2) * 3
+        var exp = "20 30 - 10 *".split(" "); // (20-30)*10
+//        var exp = "1 2 + 3 *".split(" "); // (1 + 2) * 3
         //var exp = "1 2 3 * +".split(" "); // 1 + 2 * 3
         int res = 0;
-        System.out.println(exp);
+        System.out.println(Arrays.toString(exp));
+
         Stack<Integer> st = new Stack<>();
         for (int i = 0; i < exp.length; i++) {
             if (isDigit(exp[i])) {
@@ -57,7 +59,7 @@ public class Lec04_Stack {
                         st.push(res);
                         break;
                     case "/":
-                        res =  st.pop()/ st.pop();
+                        res = st.pop() / st.pop();
                         st.push(res);
                         break;
                     default:
