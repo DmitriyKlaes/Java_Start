@@ -1,4 +1,4 @@
-package ru.Geekbrains.Lec07_Polymorphism.info;
+package ru.Geekbrains.Lec07_Polymorphism;
 
 public class Priest extends BaseHero {
 
@@ -6,9 +6,9 @@ public class Priest extends BaseHero {
     private int maxElixir;
 
     public Priest() {
-        super(String.format("Hero_Priest #%d", ++Magician.number),
-                Magician.r.nextInt(100, 200));
-        this.maxElixir = Magician.r.nextInt(50, 150);
+        super(String.format("Hero_Priest #%d", ++number),
+                r.nextInt(100, 200));
+        this.maxElixir = r.nextInt(50, 150);
         this.elixir = maxElixir;
     }
 

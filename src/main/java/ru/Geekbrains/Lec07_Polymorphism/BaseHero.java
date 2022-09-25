@@ -1,4 +1,4 @@
-package ru.Geekbrains.Lec07_Polymorphism.info;
+package ru.Geekbrains.Lec07_Polymorphism;
 
 import java.util.Random;
 

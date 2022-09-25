@@ -1,4 +1,4 @@
-package ru.Geekbrains.Lec07_Polymorphism.info;
+package ru.Geekbrains.Lec07_Polymorphism;
 
 public class Magician extends BaseHero {
 
@@ -6,9 +6,9 @@ public class Magician extends BaseHero {
     private int maxMana;
 
     public Magician() {
-        super(String.format("Hero_Magician #%d", ++Magician.number),
-                Magician.r.nextInt(100, 200));
-        this.maxMana = Magician.r.nextInt(50, 150);
+        super(String.format("Hero_Magician #%d", ++number),
+                r.nextInt(100, 200));
+        this.maxMana = r.nextInt(50, 150);
         this.mana = maxMana;
     }
 
