@@ -1,0 +1,10 @@
+Comparator<E>
+Предназначен для упорядочивания собственных типов.
+obj.compare(x, y) <= 1
+obj.compare(x, y) <= 0
+obj.compare(x, y) <= -1
+
+Comparable<E>
+Списки (и массивы) собственных типов позволяют автоматически сортироваться при помощи
+Collections.sort
+Arrays.sort

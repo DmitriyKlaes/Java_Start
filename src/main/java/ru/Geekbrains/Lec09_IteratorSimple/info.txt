@@ -1,0 +1,7 @@
+Iterator<E>
+Итератор над «коллекцией». Iterator занимает место
+Enumeration’в Java Collections Framework.
+
+Iterable<E>
+Позволяет собственному типу быть типом
+оператора «for-each loop»
