@@ -1,4 +1,4 @@
-package ru.Geekbrains.ParametricPolymorphism;
+package ru.Geekbrains.Lec10_ParametricPolymorphism;
 
 import java.util.List;
 
